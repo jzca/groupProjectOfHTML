@@ -121,8 +121,15 @@ h4 {
     align-items: flex-end;
     padding:10px 10px 0px;
 }
-
+@media screen and (max-width:650px) {
+.content-frame {
+    font-size: 80%;
+}
+    
 @media screen and (max-width:500px) {
+    .content-frame {
+        font-size: 100%;
+    }
     .title h1 {
         font-size:15px;
         margin:0px 0px 10px 0px;
