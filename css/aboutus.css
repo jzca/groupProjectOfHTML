@@ -90,8 +90,6 @@ h4 {
     max-width:1000px;
     margin:auto;
     padding:10px 10px 0px;
-    flex-wrap:wrap;
-    justify-content:space-evenly;
 }
 
 .content-frame div {
