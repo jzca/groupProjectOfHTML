@@ -22,6 +22,20 @@ h4 {
     font-size:20px;
     margin:0px 0px 10px 0px;
     width:130px;
+    color:rgb(39, 38, 38);
+
+}
+
+.title-above-menu {
+    display:block;
+    max-width:1000px;
+    margin:auto;
+    color:rgb(111, 112, 111);
+    text-align: right;
+    margin-bottom: -50px;
+    padding-right: 30px;
+    padding-top: 20px;   
+
 }
 
 .header-frame {
@@ -140,7 +154,7 @@ h4 {
     .title h1 {
         font-size:15px;
         margin:0px 0px 10px 0px;
-        color:blue;
+        color:rgb(39, 38, 38);
         
     } 
     .menu {
@@ -163,6 +177,9 @@ h4 {
         flex-wrap: wrap;
         justify-content: space-evenly;
         width:100%;
+    }
+    .title-above-menu {
+        display:none;
     }
 
 }

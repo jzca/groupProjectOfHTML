@@ -24,6 +24,18 @@ h4 {
     width:130px;
 }
 
+.title-above-menu {
+    display:block;
+    max-width:1000px;
+    margin:auto;
+    color:rgb(111, 112, 111);
+    text-align: right;
+    margin-bottom: -50px;
+    padding-right: 30px;
+    padding-top: 20px;   
+
+}
+
 .header-frame {
     display:flex;
     flex-wrap: wrap;
@@ -90,11 +102,19 @@ h4 {
     max-width:1000px;
     margin:auto;
     padding:10px 10px 0px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
 }
 
 .content-frame div {
     padding:5px 5px 5px;
 }
+
+.content-frame h3,h4 {
+    text-align:left;
+}
+
 .footer-frame {
     margin:auto;
     max-width:1000px;
@@ -110,7 +130,7 @@ h4 {
     .title h1 {
         font-size:15px;
         margin:0px 0px 10px 0px;
-        color:blue;
+        color:rgb(39, 38, 38);
         
     } 
     .menu {
@@ -131,14 +151,9 @@ h4 {
         
     }
 
-    .atright button {
-        width:70px;
-        font-size:12px;
-        text-transform: uppercase;
-        background-color: darkgray;
-        border-radius: 10px;
-        color: white;
-        border: none;
+    .title-above-menu {
+        display:none;
     }
+
 
 }

@@ -22,6 +22,20 @@ h4 {
     font-size:20px;
     margin:0px 0px 10px 0px;
     width:130px;
+    color:rgb(39, 38, 38);
+
+}
+
+.title-above-menu {
+    display:block;
+    max-width:1000px;
+    margin:auto;
+    color:rgb(111, 112, 111);
+    text-align: right;
+    margin-bottom: -50px;
+    padding-right: 30px;
+    padding-top: 20px;   
+
 }
 
 .header-frame {
@@ -84,8 +98,6 @@ h4 {
     padding:50px 10px 0px;    
 }
 
-
-
 .content-frame {
     max-width:800px;
     margin:auto;
@@ -121,19 +133,12 @@ h4 {
     align-items: flex-end;
     padding:10px 10px 0px;
 }
-@media screen and (max-width:650px) {
-.content-frame {
-    font-size: 80%;
-}
-    
+
 @media screen and (max-width:500px) {
-    .content-frame {
-        font-size: 100%;
-    }
     .title h1 {
         font-size:15px;
         margin:0px 0px 10px 0px;
-        color:blue;
+        color:rgb(39, 38, 38);
         
     } 
     .menu {
@@ -149,7 +154,7 @@ h4 {
         font-size: 12px;    
     }
 
-.header-frame, .main-frame, .content-frame, .footer-frame{
+    .content-frame {
         flex-direction: column;
         
     }
@@ -163,5 +168,10 @@ h4 {
         color: white;
         border: none;
     }
+
+    .title-above-menu {
+        display:none;
+    }
+
 
 }
