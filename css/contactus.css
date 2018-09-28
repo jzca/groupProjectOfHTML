@@ -142,6 +142,11 @@ h4 {
 }
 
 @media screen and (max-width:500px) {
+    
+.header-frame, .main-frame, .content-frame, .footer-frame{
+flex-direction: column;
+}
+
     .content-frame {
     font-size: 100%;
 }
@@ -163,11 +168,7 @@ h4 {
     .menu-bottom {
         font-size: 12px;    
     }
-
-.header-frame, .main-frame, .content-frame, .footer-frame{
-flex-direction: column;
-}
-
+    
     .atright button {
         width:70px;
         font-size:12px;
