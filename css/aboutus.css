@@ -90,7 +90,6 @@ h4 {
 
 .main-frame div{
     max-width:650px;
-    min-width:360px;
     margin:auto;
     text-align: center;
     padding:50px 10px 0px;    
@@ -150,3 +149,11 @@ h4 {
 
 
 }
+
+@media screen and (max-width:320px) {
+.footer-frame {
+    display: block;
+    justify-content: space-between;
+    width: 300px;
+    
+}    
