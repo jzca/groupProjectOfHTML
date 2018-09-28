@@ -142,7 +142,7 @@ h4 {
         font-size: 12px;    
     }
 
-    .content-frame {
+.header-frame, .main-frame, .content-frame, .footer-frame{
         flex-direction: column;
         
     }
