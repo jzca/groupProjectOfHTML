@@ -154,6 +154,5 @@ h4 {
 .footer-frame {
     display: block;
     justify-content: space-between;
-    width: 300px;
-    
+    max-width: 320px;
 }    
